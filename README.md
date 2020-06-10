@@ -23,7 +23,5 @@ curl --location --request POST 'https://localhost:44388/api/complaint' \
 For user help below is the CURL request of the end point
 
 `
-curl --location --request GET 'https://localhost:44388/api/complaint/2' \
---header 'Content-Type: application/json' \
---data-raw '{"Complaint":"Test"}'
+curl --location --request GET 'https://localhost:44388/api/complaint/2'
 `
